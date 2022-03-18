@@ -18,6 +18,11 @@ git branch [dev m1 m2 m3 master orp]
 git push origin --all [push all of them to GitHUB remote]
 
 --------------------------------------------------------------------------------
+git branch -d branch_name
+git branch --delete branch_name
+git push origin --delete branch_name
+
+
 
 …or create a new repository on the command line
 
