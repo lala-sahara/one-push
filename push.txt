@@ -10,6 +10,15 @@ git add .
 git commit -m 'xxx'
 git push
 -------------------------------------------------------
+
+git branch checkout -b m1
+git branch checkout -b m2
+git branch checkout -b m3
+git branch [dev m1 m2 m3 master orp]
+git push origin --all [push all of them to GitHUB remote]
+
+--------------------------------------------------------------------------------
+
 …or create a new repository on the command line
 
 echo "# one-push" >> README.md
